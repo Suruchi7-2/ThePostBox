@@ -10,12 +10,18 @@
 <body>
     <div class="dashboard d-flex justify-content-between">
         <div class="sidebar bg-dark vh-100">
-            <h1 class="bg-primary p-4"><a href="index.php" class="text-light text-decoration-none">Dashboard</a></h1>
-       <div class="menues p-4 mt-5">
-        <div class="menu">
-            <a href="create.php" class="text-light text-decoration-none" ><strong>Add New Post</strong></a>
-        </div>
-       </div>
+            <h1 class="bg-primary p-4"><a href="dashboard.php"  class="text-light text-decoration-none">Dashboard</a></h1>
+            <small class="text-light p-4 " style="font-family: 'Dancing Script', cursive"; >Welcome New User!</small><br><small class="text-light p-4 " style="font-family: 'Dancing Script', cursive"; >Let's Write,View nd more!!!.</small>
+            <hr style="border-color: white; border-width: 4px;">
+       
+            
+        <span class="menu p-2">
+            <a href="create.php" class="text-light text-decoration-none btn btn-success" ><strong>Add New Post</strong></a>
+</span>
+        <span class="menu">
+            <a href="logout.php" class="text-light text-decoration-none btn btn-danger" ><strong>Logout</strong></a>
+</span>
+     
        
         </div>
 </body>
