@@ -8,8 +8,8 @@
 
 </head>
 <body>
-    <div class="dashboard d-flex justify-content-between">
-        <div class="sidebar bg-dark vh-100">
+<div class="dashboard d-flex justify-content-between">
+    <div class="sidebar bg-dark sticky-top" style="top: 0; height: 100vh;">
             <h1 class="bg-primary p-4"><a href="dashboard.php"  class="text-light text-decoration-none">Dashboard</a></h1>
             <small class="text-light p-4 " style="font-family: 'Dancing Script', cursive"; >Welcome New User!</small><br><small class="text-light p-4 " style="font-family: 'Dancing Script', cursive"; >Let's Write,View nd more!!!.</small>
             <hr style="border-color: white; border-width: 4px;">

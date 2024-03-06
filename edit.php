@@ -23,10 +23,10 @@ if($id){
                     <input type="text" class="form-control" name="title" id="" placeholder="Enter Title:" value="<?php echo $data['title']; ?>">
                 </div>
                 <div class="form-field mb-4">
-                    <textarea name="summary"  class="form-control" id="" cols="30" rows="10" placeholder="Enter Summary:"><?php echo $data['summary']; ?></textarea>
+                    <textarea name="summary"  class="form-control" id="default" cols="30" rows="10" placeholder="Enter Summary:"><?php echo $data['summary']; ?></textarea>
                 </div>
                 <div class="form-field mb-4">
-                    <textarea name="content" class="form-control" id="" cols="30" rows="10" placeholder="Enter Post:"><?php echo $data['content']; ?></textarea>
+                    <textarea name="content" class="form-control" id="default" cols="30" rows="10" placeholder="Enter Post:"><?php echo $data['content']; ?></textarea>
                 </div>
                 <input type="hidden" name="date" value="<?php echo date("Y/m/d"); ?>">
                 <input type="hidden" name="id" value="<?php echo $id; ?>">
@@ -38,6 +38,8 @@ if($id){
                 }
                 ?>
             </form>
+            <script src="tinymce/tinymce.min.js"></script>
+    <script src="script.js"></script>
         </div>
 <?php 
 include("admin/template/footer.php");
