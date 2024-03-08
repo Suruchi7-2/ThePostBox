@@ -8,6 +8,15 @@ include("admin/template/header.php");
 
                 </div>
                 <div class="form-field mb-4">
+                    <input type="text" class="form-control" style="width:900px;" name="author" placeholder="Enter author name">
+
+                </div>
+
+                <div class="form-field mb-4">
+                    <input type="email" class="form-control" style="width:900px;" name="email" placeholder="Enter author's email">
+
+                </div>
+                <div class="form-field mb-4">
                     <textarea name="summary" class= "form-control" id="default" cols="30" rows="10" placeholder="Enter summary"></textarea>
 
                 </div>
@@ -16,6 +25,7 @@ include("admin/template/header.php");
 
                 </div>
                 <input type="hidden" name="date" value="<?php echo date("Y/m/d");?>">
+               
                 <div class="form-field mb-4">
                 <input type="submit" class="btn btn-primary" value="Submit" name="create">
 

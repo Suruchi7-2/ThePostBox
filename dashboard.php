@@ -5,10 +5,11 @@ include("admin/template/header.php");
     <table class="table table-bordered">
         <thead>
             <tr>
-                <th style="width:15%;">Publication Date</th>
-                <th style="width:15%;">Title</th>
+                <th style="width:10%;">Publication Date</th>
+                <th style="width:15%;" >Title</th>
                 <th style="width:45%;">Article</th>
-                <th style="width:25%;">Action</th>
+                <th style="width:20%;">Action</th>
+                <th style="width:10%;">AuthorName</th>
 </tr>
 </thead>
 <tbody>
@@ -23,11 +24,11 @@ include("admin/template/header.php");
         <td> <?php echo $row["date"]?> </td>
         <td> <?php echo $row["title"]?> </td>
         <td> <?php echo $row["summary"]?> </td>
-        <td>
-        <a href="view.php?id=<?php echo $row['id'] ?>" class="btn btn-info">View</a>
+       <td> <a href="view.php?id=<?php echo $row['id'] ?>" class="btn btn-info">View</a>
                     <a href="edit.php?id=<?php echo $row['id'] ?>" class="btn btn-warning">Edit</a>
                     <a href="delete.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">Delete</a>
    </td>
+   <td> <?php echo $row["author"]?> </td>
    </tr>
     <?php
 
