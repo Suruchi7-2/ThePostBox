@@ -1,5 +1,7 @@
 <?php
 include("admin/template/header.php");
+include("admin/template/submit_form.php")
+
 ?>
 <div class="post-list w-100 p-5">
     <table class="table table-bordered">
