@@ -1,6 +1,6 @@
-                                                                    ### The PostBox or PostHub
-                                                                    *A Social Blogging Platform (PHP)*
-                                                                    Use Master Branch only for code section
+                                                   ### The PostBox or PostHub
+                                                  *A Social Blogging Platform (PHP)*
+                                                   Use Master Branch only for code section
 ## The PostBox/The PostHub: **It is a social blogging platform built with PHP, HTML, Bootstrap, and CSS. It empowers users to create and share content, engage in discussions, and explore diverse perspectives.**
 
 ### **Key Features:**
